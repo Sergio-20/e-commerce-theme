@@ -1,0 +1,30 @@
+#google-maps-marseille-container {
+  margin-bottom: -15rem;
+}
+
+#google-maps-marseille {
+  display: block;
+  margin: 0 auto;
+  height: 500px;
+  max-height: 100%;
+  width: 900px;
+  max-width: 100%;
+}
+
+#maps-locale-info {
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  left: -17rem;
+  top: -8rem;
+  width: 300px;
+  max-width: 100%;
+}
+
+#maps-locale-info a {
+  margin: 2rem auto;
+}
+
+#maps-locale-info h3 {
+  padding-top: 1rem !important;
+}

@@ -1,0 +1,304 @@
+/* General Elements */
+body {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth !important; }
+
+footer, nav, section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+
+footer {
+  margin: 5rem;
+  text-align: center; }
+
+footer ul a {
+  display: block;
+  margin-right: 3rem;
+  line-height: 1.5rem; }
+
+nav ul {
+  display: block;
+  margin: 0 auto; }
+
+section {
+  margin: 0 auto;
+  max-width: 1024px; }
+
+/* IDs */
+#google-maps-marseille-container {
+  margin-bottom: -15rem; }
+
+#google-maps-marseille {
+  display: block;
+  margin: 0 auto;
+  height: 500px;
+  max-height: 100%;
+  width: 900px;
+  max-width: 100%; }
+
+#maps-locale-info {
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  left: -17rem;
+  top: -8rem;
+  width: 300px;
+  max-width: 100%; }
+
+#maps-locale-info a {
+  margin: 2rem auto; }
+
+#maps-locale-info h3 {
+  padding-top: 1rem !important; }
+
+#accepted-payments {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+#accepted-payments h4 {
+  margin: 1rem auto; }
+
+#accepted-payments img {
+  display: inline-block;
+  margin-bottom: 1rem;
+  height: 24px !important;
+  width: 38px !important; }
+
+#img-slides {
+  height: 160px;
+  max-height: 160px;
+  width: 960px;
+  max-width: 960px; }
+
+/* Classes */
+article {
+  height: 20rem;
+  margin: 1rem 2rem; }
+
+.article-01 {
+  background: url("https://images.pexels.com/photos/1574650/pexels-photo-1574650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.article-02 {
+  background: url("https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.article-03 {
+  background: url("https://images.pexels.com/photos/814194/pexels-photo-814194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.article-04 {
+  background: url("https://images.pexels.com/photos/590510/pexels-photo-590510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.article-05 {
+  background: url("https://images.pexels.com/photos/298018/pexels-photo-298018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.article-06 a {
+  display: block;
+  margin: 2rem auto;
+  width: 75%; }
+
+.article-06 img {
+  margin: 2rem auto; }
+
+.article-06 #img-slides {
+  height: auto;
+  width: 1024px;
+  max-width: 100%; }
+
+.article-06-logo {
+  display: block;
+  margin: 0 auto;
+  height: 140px;
+  max-height: 100%;
+  width: 240px;
+  max-width: 100%; }
+
+.article-07, .article-08 {
+  text-align: center; }
+
+.article-09 .article-header a {
+  margin: 1rem auto; }
+
+.paris-images {
+  margin-top: 15rem;
+  text-align: center; }
+
+.article-13 img {
+  height: 184px;
+  width: 200px;
+  max-width: 100%; }
+
+.article-header {
+  text-align: center; }
+
+.article-header h2, .article-header a {
+  display: inline-block;
+  margin: auto 15rem; }
+
+.blog-section {
+  margin-bottom: 18rem;
+  text-align: center; }
+
+.blog-section a img {
+  margin: 2rem auto !important; }
+
+.blog-section img {
+  height: 184px;
+  width: 320px;
+  max-width: 100%; }
+
+.blog-section p {
+  height: 140px;
+  max-height: 100%; }
+
+/* Carousel Article Styles */
+/* Carousel 01 = Container for article-07 */
+/* Carousel 02 = Container for article-08 */
+.carousel-01, .carousel-02 {
+  width: 1354px !important;
+  max-width: 100%; }
+
+.carousel-01 img, .carousel-02 img {
+  height: 193px;
+  width: 310px;
+  max-width: 100%; }
+
+.carousel-01 {
+  margin-top: 15rem; }
+
+.carousel-02 {
+  margin-top: -8rem; }
+
+.block-center {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+.category-section-01 {
+  margin-top: 2rem; }
+
+.category-section-01 a, .category-section-02 a {
+  color: #222; }
+
+.copyright {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+.copyright h5 {
+  margin-bottom: 5rem; }
+
+.nav-item {
+  list-style: none; }
+
+.nav-link {
+  color: #222;
+  display: inline-block; }
+
+.logo-container {
+  display: block;
+  margin: 2rem auto;
+  text-align: center; }
+
+.logo-container img {
+  height: 85px;
+  max-height: 100%;
+  width: 200px;
+  max-width: 100%; }
+
+.shirt {
+  height: auto;
+  max-width: 100%; }
+
+.social-icons i {
+  font-size: 1.5rem;
+  margin: auto 0.5rem; }
+
+.uppermost-menu {
+  background: #ddd;
+  margin: auto 7rem;
+  margin-top: 1.5rem; }
+
+.uppermost-menu * {
+  margin: auto 0.5rem; }
+
+.uppermost-menu i, .uppermost-menu a {
+  margin: 1rem !important; }
+
+.uppermost-menu span + span {
+  float: right; }
+
+/* Desktop */
+@media only screen and (max-width: 1004px) {
+  #google-maps-marseille-container {
+    margin-top: 6rem; }
+
+  #maps-locale-info {
+    left: -10rem; } }
+/* Tablets to Desktops */
+@media only screen and (min-width: 768px) and (max-width: 1327px) {
+  .article-header {
+    display: block; }
+
+  .article-header h2, .article-header a {
+    margin-top: 5rem; } }
+/* Smartphones to Small Tablets */
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  footer div, footer nav {
+    margin: 1rem auto; }
+
+  #google-maps-marseille-container {
+    margin-top: 35rem !important; }
+
+  #maps-locale-info {
+    display: block;
+    margin-top: 30rem;
+    left: 0;
+    top: 0; }
+
+  .article-header {
+    display: block;
+    margin-bottom: -35rem;
+    margin-top: 50rem;
+    position: relative;
+    left: -10rem; }
+
+  .article-header a {
+    margin-top: 3rem;
+    width: 50%; }
+
+  .article-13 img {
+    margin-top: 0;
+    margin-bottom: 1rem; }
+
+  .article-header {
+    display: block; }
+
+  .blog-section {
+    margin-top: 30rem; }
+
+  .blog-section article {
+    display: block;
+    margin: 10rem auto; }
+
+  .carousel-01 img, .carousel-02 img {
+    display: block;
+    margin: 3rem auto; }
+
+  .uppermost-menu * {
+    margin: 1rem auto; } }
+@media only screen and (max-width: 330px) {
+  .uppermost-menu * {
+    line-height: 1.5rem;
+    margin: 2rem auto; } }
+
+/*# sourceMappingURL=style.css.map */

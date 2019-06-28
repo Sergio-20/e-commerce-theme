@@ -1,0 +1,98 @@
+/* Desktop */
+@media only screen and ( max-width: 1004px )
+{
+
+  #google-maps-marseille-container {
+    margin-top: 6rem;
+  }
+
+  #maps-locale-info  {
+    left: -10rem;
+  }
+
+}
+
+/* Tablets to Desktops */
+@media only screen and ( min-width: 768px ) and ( max-width: 1327px )
+{
+
+  .article-header {
+    display: block;
+  }
+
+  .article-header h2, .article-header a {
+    margin-top: 5rem;
+  }
+
+}
+
+/* Smartphones to Small Tablets */
+@media only screen and ( min-width: 300px ) and ( max-width: 767px )
+{
+
+  footer div, footer nav {
+    margin: 1rem auto;
+  }
+
+  #google-maps-marseille-container {
+    margin-top: 35rem !important;
+  }
+
+  #maps-locale-info  {
+    display: block;
+    margin-top: 30rem;
+    left: 0;
+    top: 0;
+  }
+
+  .article-header {
+    display: block;
+    margin-bottom: -35rem;
+    margin-top: 50rem;
+    position: relative;
+    left: -10rem;
+  }
+
+  .article-header a {
+    margin-top: 3rem;
+    width: 50%;
+  }
+
+  .article-13 img {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .article-header {
+    display: block;
+  }
+
+  .blog-section {
+    margin-top: 30rem;
+  }
+
+  .blog-section article {
+    display: block;
+    margin: 10rem auto;
+  }
+
+  .carousel-01 img, .carousel-02 img {
+    display: block;
+    margin: 3rem auto;
+  }
+
+  .uppermost-menu * {
+    margin: 1rem auto;
+  }
+
+}
+
+@media only screen and ( max-width: 330px )
+{
+
+  .uppermost-menu * {
+    line-height: 1.5rem;
+    margin: 2rem auto;
+  }
+
+}

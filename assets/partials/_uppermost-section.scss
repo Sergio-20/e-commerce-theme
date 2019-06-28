@@ -1,0 +1,17 @@
+.uppermost-menu {
+  background: #ddd;
+  margin: auto 7rem;
+  margin-top: 1.5rem;
+}
+
+.uppermost-menu * {
+  margin: auto 0.5rem;
+}
+
+.uppermost-menu i, .uppermost-menu a {
+  margin: 1rem !important;
+}
+
+.uppermost-menu span+span {
+  float: right;
+}

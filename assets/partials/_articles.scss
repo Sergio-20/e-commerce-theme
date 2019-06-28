@@ -1,0 +1,130 @@
+article {
+  height: 20rem;
+  margin: 1rem 2rem;
+}
+
+.article-01 {
+  background: url("https://images.pexels.com/photos/1574650/pexels-photo-1574650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-02 {
+  background: url("https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-03 {
+  background: url("https://images.pexels.com/photos/814194/pexels-photo-814194.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-04 {
+  background: url("https://images.pexels.com/photos/590510/pexels-photo-590510.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-05 {
+  background: url("https://images.pexels.com/photos/298018/pexels-photo-298018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-06 a {
+  display: block;
+  margin: 2rem auto;
+  width: 75%;
+}
+
+.article-06 img {
+  margin: 2rem auto;
+}
+
+.article-06 #img-slides {
+  height: auto;
+  width: 1024px;
+  max-width: 100%;
+}
+
+.article-06-logo {
+  display: block;
+  margin: 0 auto;
+  height: 140px;
+  max-height: 100%;
+  width: 240px;
+  max-width: 100%;
+}
+
+.article-07, .article-08 {
+  text-align: center;
+}
+
+.article-09 .article-header a {
+  margin: 1rem auto;
+}
+
+.paris-images {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.article-13 img {
+  height: 184px;
+  width: 200px;
+  max-width: 100%;
+}
+
+.article-header {
+  text-align: center;
+}
+
+.article-header h2, .article-header a {
+  display: inline-block;
+  margin: auto 15rem;
+}
+
+.blog-section {
+  margin-bottom: 18rem;
+  text-align: center;
+}
+
+.blog-section a img {
+  margin: 2rem auto !important;
+}
+
+.blog-section img {
+  height: 184px;
+  width: 320px;
+  max-width: 100%;
+}
+
+.blog-section p {
+  height: 140px;
+  max-height: 100%;
+}
+
+/* Carousel Article Styles */
+/* Carousel 01 = Container for article-07 */
+/* Carousel 02 = Container for article-08 */
+
+.carousel-01, .carousel-02 {
+  width: 1354px !important;
+  max-width: 100%;
+}
+
+.carousel-01 img, .carousel-02 img {
+  height: 193px;
+  width: 310px;
+  max-width: 100%;
+}
+
+.carousel-01 {
+  margin-top: 15rem;
+}
+
+.carousel-02 {
+  margin-top: -8rem;
+}
